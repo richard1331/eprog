@@ -1,0 +1,51 @@
+#include<stdio.h>
+
+int main(){
+	int a, b;
+	
+	printf("Enter a month(1-12):\n");
+	scanf("%d", &a);
+	printf("Enter a day(1-7):\n");
+	scanf("%d", &b);
+	
+	if(a==1)
+	printf("January\n");
+	if(a==2)
+	printf("February\n");
+	if(a==3)
+	printf("March\n");
+	if(a==4)
+	printf("April\n");
+	if(a==5)
+	printf("May\n");
+	if(a==6)
+	printf("June\n");
+	if(a==7)
+	printf("July\n");
+	if(a==8)
+	printf("August\n");
+	if(a==9)
+	printf("September\n");
+	if(a==10)
+	printf("October\n");
+	if(a==11)
+	printf("November\n");
+	if(a==12)
+	printf("December\n");
+	
+	if(b==1)
+	printf("Sunday");
+	if(b==2)
+	printf("Monday");
+	if(b==3)
+	printf("Tuesday");
+	if(b==4)
+	printf("Wednesday");
+	if(b==5)
+	printf("Thursday");
+	if(b==6)
+	printf("Friday");
+	if(b==7)
+	printf("Saturday");
+
+}
